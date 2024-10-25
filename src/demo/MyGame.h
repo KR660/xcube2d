@@ -20,12 +20,15 @@ class MyGame : public AbstractGame {
 		int score, numKeys, lives;
 		bool gameWon;
 		Character PC;
+		Map* debugMap = nullptr;
 
 		void handlePlayerEvents();
 		void handleKeyEvents();
 		void update();
 		void render();
 		void drawPlayerTD();
+		void drawMapTD();
+		void makeDebugMap();
 		void renderUI();
 		Line2i lineWrapper(float x1, float y1, float x2, float y2);
 	public:

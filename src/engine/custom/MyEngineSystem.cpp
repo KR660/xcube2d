@@ -22,8 +22,11 @@ void Character::step(float stepMult) {
 	std::cout << moveSpeed * stepMult * cos(ang()) << ". \n\n";*/
 }
 
-Map::Map(short cellsIn[60][80]) {
-	cells = cellsIn;
-	//TODO: not how this works: write properly later
-	//TODO: decide how this system is going to work at a time other than midnight
+Map::Map(short cellsIn[MAP_Y][MAP_X]) {
+	for (int y = 0; y < MAP_Y; y++) {
+		for (int x = 0; x < MAP_X; x++) {
+			cells[y][x] = cellsIn[y][x];
+			//this took more tries to get right than I would like to admit
+		}
+	}
 }
