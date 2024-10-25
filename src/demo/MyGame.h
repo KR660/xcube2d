@@ -19,11 +19,15 @@ class MyGame : public AbstractGame {
 		/* GAMEPLAY */
 		int score, numKeys, lives;
 		bool gameWon;
+		Character PC;
 
+		void handlePlayerEvents();
 		void handleKeyEvents();
 		void update();
 		void render();
+		void drawPlayerTD();
 		void renderUI();
+		Line2i lineWrapper(float x1, float y1, float x2, float y2);
 	public:
         MyGame();
 		~MyGame();

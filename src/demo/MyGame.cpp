@@ -11,6 +11,8 @@ MyGame::MyGame() : AbstractGame(), score(0), lives(3), numKeys(5), gameWon(false
         k->pos = Point2(getRandom(0, 750), getRandom(0, 550));
         gameKeys.push_back(k);
     }
+
+	PC = Character();
 }
 
 MyGame::~MyGame() {
@@ -35,6 +37,11 @@ void MyGame::handleKeyEvents() {
 	if (eventSystem->isPressed(Key::D)) {
 		velocity.x = speed;
 	}
+
+	if (eventSystem->isPressed(Key::W)) PC.step(1);
+	if (eventSystem->isPressed(Key::S)) PC.step(-1);
+	if (eventSystem->isPressed(Key::D)) PC.turn(1);
+	if (eventSystem->isPressed(Key::A)) PC.turn(-1);
 }
 
 void MyGame::update() {
@@ -65,6 +72,17 @@ void MyGame::render() {
 	for (auto key : gameKeys)
         if (key->isAlive)
 		    gfx->drawCircle(key->pos, 5);
+
+	drawPlayerTD();
+}
+
+void MyGame::drawPlayerTD() {
+	//ughh this is going to be so much trig
+	gfx->setDrawColor(SDL_COLOR_BLUE);
+	//don't look too hard at this
+	gfx->drawLine(lineWrapper(PC.x-(5*sin(PC.ang())), PC.y-(-5*cos(PC.ang())), PC.x+(5*sin(PC.ang())), PC.y+(-5*cos(PC.ang()))));
+	gfx->drawLine(lineWrapper(PC.x - (3 * sin(PC.ang()-2)), PC.y - (-3 * cos(PC.ang()-2)), PC.x + (5 * sin(PC.ang())), PC.y + (-5 * cos(PC.ang()))));
+	gfx->drawLine(lineWrapper(PC.x - (3 * sin(PC.ang()+2)), PC.y - (-3 * cos(PC.ang()+2)), PC.x + (5 * sin(PC.ang())), PC.y + (-5 * cos(PC.ang()))));
 }
 
 void MyGame::renderUI() {
@@ -74,4 +92,8 @@ void MyGame::renderUI() {
 
 	if (gameWon)
 		gfx->drawText("YOU WON", 250, 500);
+}
+
+Line2i MyGame::lineWrapper(float x1, float y1, float x2, float y2) {
+	return Line2i(Point2(x1, y1), Point2(x2, y2)); 
 }
