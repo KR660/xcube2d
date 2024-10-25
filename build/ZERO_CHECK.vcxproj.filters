@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\build\CMakeFiles\6cbed96a00dff9c8b719c426efa67fd5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{093A1B90-48A9-3F48-BD86-F46054E63CCD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

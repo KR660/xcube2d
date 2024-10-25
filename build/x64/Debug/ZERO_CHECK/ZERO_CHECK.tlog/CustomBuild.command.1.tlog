@@ -1,0 +1,10 @@
+^C:\KITTYS_MISC\UNI\RAYFUCKER_EXTREME\XCUBE2D\BUILD\CMAKEFILES\6CBED96A00DFF9C8B719C426EFA67FD5\GENERATE.STAMP.RULE
+setlocal
+C:\Kittys_Misc\Uni\RayFucker_Extreme\cmake-3.24.2-windows-x86_64\bin\cmake.exe -SC:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d -BC:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d/build/MyGame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

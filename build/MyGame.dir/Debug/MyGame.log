@@ -1,0 +1,289 @@
+﻿  Main.cpp
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(42,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(43,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(48,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(49,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/Main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+  (compiling source file '../src/demo/Main.cpp')
+  C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\libs\SDL2\include\SDL_stdinc.h(499,1):
+  see previous definition of 'M_PI'
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.h(24,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '../src/demo/Main.cpp')
+  
+  MyGame.cpp
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(42,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(43,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(48,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(49,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+  (compiling source file '../src/demo/MyGame.cpp')
+  C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\libs\SDL2\include\SDL_stdinc.h(499,1):
+  see previous definition of 'M_PI'
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.h(24,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '../src/demo/MyGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\MyGame.cpp(91,30): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\MyGame.cpp(98,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\MyGame.cpp(98,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\MyGame.cpp(98,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\MyGame.cpp(98,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  AbstractGame.cpp
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(42,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(43,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(48,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(49,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\libs\SDL2\include\SDL_stdinc.h(499,1):
+  see previous definition of 'M_PI'
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.h(24,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '../src/engine/AbstractGame.cpp')
+  
+  XCube2d.cpp
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(42,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(43,15): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(48,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(49,15): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,27): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,30): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,33): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(96,36): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h(114,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+  (compiling source file '../src/engine/XCube2d.cpp')
+  C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\libs\SDL2\include\SDL_stdinc.h(499,1):
+  see previous definition of 'M_PI'
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.h(24,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '../src/engine/XCube2d.cpp')
+  
+  MyEngineSystem.cpp
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.h(24,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '../src/engine/custom/MyEngineSystem.cpp')
+  
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.cpp(13,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.cpp(14,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  MyGame.vcxproj -> C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\build\Debug\MyGame.exe

@@ -1,0 +1,10 @@
+^C:\KITTYS_MISC\UNI\RAYFUCKER_EXTREME\XCUBE2D\CMAKELISTS.TXT
+setlocal
+C:\Kittys_Misc\Uni\RayFucker_Extreme\cmake-3.24.2-windows-x86_64\bin\cmake.exe -SC:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d -BC:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d/build --check-stamp-file C:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

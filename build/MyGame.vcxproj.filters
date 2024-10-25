@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\MyGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\AbstractGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\AudioEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\EventEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GraphicsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\PhysicsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\XCube2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\demo\MyGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\AbstractGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\AudioEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\EngineCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\EventEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GameMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\GraphicsEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\PhysicsEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\XCube2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\src\engine\custom\MyEngineSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Kittys_Misc\Uni\RayFucker_Extreme\xcube2d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C4E2B354-989F-3E59-A6F9-B8D357D2BB53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{895D0EC5-C6CB-334B-A3D3-7E21A82E0887}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

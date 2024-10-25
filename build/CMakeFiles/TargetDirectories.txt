@@ -1,0 +1,3 @@
+C:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d/build/CMakeFiles/MyGame.dir
+C:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d/build/CMakeFiles/ALL_BUILD.dir
+C:/Kittys_Misc/Uni/RayFucker_Extreme/xcube2d/build/CMakeFiles/ZERO_CHECK.dir
