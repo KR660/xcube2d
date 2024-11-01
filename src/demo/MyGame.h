@@ -19,7 +19,8 @@ class MyGame : public AbstractGame {
 		/* GAMEPLAY */
 		int score, numKeys, lives;
 		bool gameWon;
-		Character PC;
+		GameArea gameArea;
+		Character* PC;
 		Map* debugMap = nullptr;
 
 		void handlePlayerEvents();

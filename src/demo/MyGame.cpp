@@ -14,7 +14,9 @@ MyGame::MyGame() : AbstractGame(), score(0), lives(3), numKeys(5), gameWon(false
 
 	makeDebugMap();
 
-	PC = Character();
+	gameArea = GameArea();
+	gameArea.loadMap(debugMap);
+	PC = gameArea.getPcPtr();
 }
 
 MyGame::~MyGame() {
@@ -40,10 +42,12 @@ void MyGame::handleKeyEvents() {
 		velocity.x = speed;
 	}
 
-	if (eventSystem->isPressed(Key::W)) PC.step(1);
-	if (eventSystem->isPressed(Key::S)) PC.step(-1);
-	if (eventSystem->isPressed(Key::D)) PC.turn(1);
-	if (eventSystem->isPressed(Key::A)) PC.turn(-1);
+	if (eventSystem->isPressed(Key::W)) PC->step(1);
+	if (eventSystem->isPressed(Key::S)) PC->step(-1);
+	if (eventSystem->isPressed(Key::D)) PC->turn(1);
+	if (eventSystem->isPressed(Key::A)) PC->turn(-1);
+
+	if (eventSystem->isPressed(SPACE)) gameArea.cast(PC->x, PC->y, PC->ang(), false);
 }
 
 void MyGame::update() {
@@ -80,14 +84,16 @@ void MyGame::render() {
 }
 
 void MyGame::drawPlayerTD() {
+	int x = PC->x * TILE_SIZE;
+	int y = PC->y * TILE_SIZE;
 	gfx->setDrawColor(SDL_COLOR_BLUE);
-	gfx->drawCircle(Point2(PC.x, PC.y), 5);
+	gfx->drawCircle(Point2(x, y), 5);
 	//ughh this is going to be so much trig
 	gfx->setDrawColor(SDL_COLOR_AQUA);
 	//don't look too hard at this
-	gfx->drawLine(lineWrapper(PC.x-(5*sin(PC.ang())), PC.y-(-5*cos(PC.ang())), PC.x+(5*sin(PC.ang())), PC.y+(-5*cos(PC.ang()))));
-	gfx->drawLine(lineWrapper(PC.x - (3 * sin(PC.ang()-2)), PC.y - (-3 * cos(PC.ang()-2)), PC.x + (5 * sin(PC.ang())), PC.y + (-5 * cos(PC.ang()))));
-	gfx->drawLine(lineWrapper(PC.x - (3 * sin(PC.ang()+2)), PC.y - (-3 * cos(PC.ang()+2)), PC.x + (5 * sin(PC.ang())), PC.y + (-5 * cos(PC.ang()))));
+	gfx->drawLine(lineWrapper(x-(5*sin(PC->ang())), y-(-5*cos(PC->ang())), x+(5*sin(PC->ang())), y+(-5*cos(PC->ang()))));
+	gfx->drawLine(lineWrapper(x - (3 * sin(PC->ang()-2)), y - (-3 * cos(PC->ang()-2)), x + (5 * sin(PC->ang())), y + (-5 * cos(PC->ang()))));
+	gfx->drawLine(lineWrapper(x - (3 * sin(PC->ang()+2)), y - (-3 * cos(PC->ang()+2)), x + (5 * sin(PC->ang())), y + (-5 * cos(PC->ang()))));
 }
 
 void MyGame::drawMapTD() {
@@ -111,6 +117,11 @@ void MyGame::drawMapTD() {
 			//std::cout << debugMap->getCell(x, y);
 		}
 		//std::cout << std::endl;
+	}
+
+	gfx->setDrawColor(SDL_COLOR_GREEN);
+	for (int i = 0; i < RAY_MAX; i++) {
+		gfx->drawRect(gameArea.rayX(i) * tileX, gameArea.rayY(i) * tileY, tileX, tileY);
 	}
 }
 
